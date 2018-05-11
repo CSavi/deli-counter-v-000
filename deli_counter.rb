@@ -10,7 +10,6 @@ def line(in_line_array)
       new_array << ("#{index + 1}. #{name}"
     end 
     puts new_array
-  end 
 end   
 
 
