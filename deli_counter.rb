@@ -2,7 +2,7 @@ require 'pry'
 katz_deli = []
 
 def line(in_line_array)
-  if in_line_array == 0 
+  if in_line_array.length == 0 
     puts "The line is currently empty."
   else 
     in_line_array 
