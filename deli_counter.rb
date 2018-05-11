@@ -10,6 +10,7 @@ def line(in_line_array)
       new_array << ("#{index + 1}. #{name}"
     end 
     puts "The line is currently: #{new_array.join(" ")}."
+  end   
 end   
 
 
