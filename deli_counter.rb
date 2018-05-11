@@ -7,6 +7,7 @@ def line(in_line_array)
   else 
     in_line_array.each_with_index do |name, index|
       return "#{name} and #{index + 1}"
+    end 
   end 
 end   
 
