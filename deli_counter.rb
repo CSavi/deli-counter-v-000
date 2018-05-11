@@ -1,19 +1,14 @@
 require 'pry'
 katz_deli = []
 
-def line(katz_deli)
-  if katz_deli.length == 0
+def line(in_line_array)
+  if in_line_array == 0 
     puts "The line is currently empty."
-  else
-    message_array = []
-    katz_deli.each_with_index do |name, index|
-     message_array << ("#{index + 1}. #{name}")
-     #binding.pry
-     #push method pushes name into index
-    end
-  puts "The line is currently: #{message_array.join(" ")}" 
- end  
+  else 
+    in_line_array 
+  end 
 end   
+
 
 def take_a_number(katz_deli, name)
   katz_deli << (name) 
