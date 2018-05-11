@@ -7,7 +7,7 @@ def line(in_line_array)
   else 
     new_array = []
     in_line_array.each_with_index do |name, index|
-      new_array << ("#{index + 1}. #{name}"
+      new_array << ("#{index + 1}. #{name})"
     end 
     puts "The line is currently: #{new_array.join(" ")}."
   end   
