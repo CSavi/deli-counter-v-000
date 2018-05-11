@@ -9,6 +9,7 @@ def line(in_line_array)
     in_line_array.each_with_index do |name, index|
       new_array << puts "The line is currently: #{name} and #{index + 1}."
     end 
+    new_array
   end 
 end   
 
