@@ -6,7 +6,7 @@ def line(in_line_array)
     puts "The line is currently empty."
   else 
     in_line_array.each_with_index do |name, index|
-      return "#{name} and #{index + 1}"
+      puts "The line is currently: #{name} and #{index + 1}."
     end 
   end 
 end   
