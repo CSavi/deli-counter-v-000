@@ -9,7 +9,7 @@ def line(in_line_array)
     in_line_array.each_with_index do |name, index|
       new_array << ("#{index + 1}. #{name}"
     end 
-    new_array
+    puts new_array
   end 
 end   
 
